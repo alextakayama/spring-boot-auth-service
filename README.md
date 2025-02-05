@@ -23,6 +23,46 @@
 
 ---
 
+## 🏗️ Running the Application with Docker Compose
+
+To quickly set up and run the application using Docker Compose, follow these steps:
+
+1. **Ensure Docker and Docker Compose are installed**
+   - [Install Docker](https://docs.docker.com/get-docker/)
+   - [Install Docker Compose](https://docs.docker.com/compose/install/)
+
+
+2. **Clone the repository**
+```sh
+git clone https://github.com/alextakayama/spring-boot-auth-service.git
+cd spring-boot-auth-service
+```
+
+2. **Start the application**
+```sh
+docker-compose up -d
+```
+
+This will start the Spring Boot application along with Redis in detached mode (`-d`).
+
+**To stop the application:**
+```sh
+docker-compose stop
+```
+
+**And to delete the containers:**
+```sh
+docker-compose down
+```
+
+---
+
+## 🧪 API Testing with Postman
+
+A Postman collection is available under the `docs` folder, with all the endpoints required to test the API. You can import it into Postman and easily interact with the authentication service.
+
+---
+
 ## 🚀 Why I Built This
 Not long ago, in the early days of the internet, building your own Identity and Access Management (IAM) system was standard practice for developers. Today, with convenient services like Auth0 and Cognito, this fundamental knowledge isn't as widespread among developers who have grown accustomed to these abstractions. I built this project to explore and share these critical security and architectural concepts that shaped the web.
 
