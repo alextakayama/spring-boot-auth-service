@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  springboot:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+    networks:
+      - service_lan
+
+  redis:
+    image: bitnami/redis:7.4
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - "6379:6379"
+    networks:
+      - service_lan
+
+networks:
+  service_lan:
+    driver: bridge
