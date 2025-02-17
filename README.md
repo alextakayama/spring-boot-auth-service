@@ -38,7 +38,7 @@ git clone https://github.com/alextakayama/spring-boot-auth-service.git
 cd spring-boot-auth-service
 ```
 
-2. **Start the application**
+3. **Start the application**
 ```sh
 docker-compose up -d
 ```
