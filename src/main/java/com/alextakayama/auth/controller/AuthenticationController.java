@@ -25,7 +25,7 @@ public class AuthenticationController {
   @PostMapping("/signup")
   public ResponseEntity<?> signup(@Valid @RequestBody SignupDTO signupInfo) {
     var user = authenticationService.signup(
-        signupInfo.getEmail(), signupInfo.getPassword(), signupInfo.getPassword()
+        signupInfo.getEmail(), signupInfo.getPassword(), signupInfo.getName()
     );
     return ResponseEntity.status(HttpStatus.CREATED).body(user);
   }
