@@ -1,5 +1,7 @@
 # 🔐 Spring Boot Auth Service
 
+[![Frontend Repository](https://img.shields.io/badge/Frontend_Webapp-🖥️_Next.js_Auth_Webapp-brightgreen)](https://github.com/alextakayama/nextjs-auth-webapp)
+
 **A minimalist, open-source REST API authentication service designed as an alternative to Auth0, Cognito and other similar authentication solutions.**
 
 ***Warning**: This project is a **minimal sample implementation** of an authentication REST API and **is not a fully secure production-ready service**. It is intended for educational purposes and as a foundation for further development. Use with caution and implement necessary security measures before deploying in a real environment.* 
@@ -56,6 +58,13 @@ docker-compose down
 ```
 
 ---
+## 🌐 Frontend Integration
+
+To demonstrate the authentication service in action, you can use the companion Next.js frontend application:
+
+**Next.js Frontend Repository**: [nextjs-auth-webapp](https://github.com/alextakayama/nextjs-auth-webapp)
+
+---
 
 ## 🧪 API Testing with Postman
 
@@ -87,10 +96,10 @@ Not long ago, in the early days of the internet, building your own Identity and 
 Hi, I'm **Alex Takayama**, a builder at heart, passionate about technology and problem-solving. I have experience crafting scalable applications and driving innovation for enterprises and startups. Always eager to collaborate—let’s build something great together!
 
 ### 💻 Skills
-- **Languages**: C++, C#, Java, JavaScript, Lua, Node.JS, Perl, PHP, Python, Typescript
+- **Languages**: C++, C#, Java, JavaScript, Lua, Node.JS, Perl, PHP, Python, Rust, Typescript
 - **Backend**: ASP.NET, Express, FastAPI, Flask, Laravel, Nest.JS, Phalcon, Play Framework, Slim, Spring Boot, Symfony
 - **Frontend**: Angular, Next.js, React, Vue.js
-- **Mobile**: Flutter, React Native
+- **Mobile**: React Native, Flutter
 - **Databases**: DynamoDB, MariaDB, MongoDB, MySQL, SQL Server, PostgreSQL, SQLite
 - **DevOps**: Apache, AWS, CI/CD, GCP, Docker, Memcached, NginX, RabbitMQ, Redis, Terraform, Varnish
 
